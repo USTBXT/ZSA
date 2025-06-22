@@ -28,8 +28,8 @@
 #define ZIGZAG_LARGE_STEP 25.0        
 #define ZIGZAG_SMALL_STEP 15.0       
 #define SOURCE_DISTANCE_THRESHOLD 20.0 
-#define MAX_X 545.0                   
-#define MAX_Y 495.0                   
+#define MAX_X 500.0                   
+#define MAX_Y 500.0                   
 #define SPIRAL_TYPE 0                 
 
 
