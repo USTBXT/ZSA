@@ -19,7 +19,7 @@
 #define SERVER_PORT     65080
 #define SERVER_IP       "192.168.1.101"
 
-// 算法参数配置
+
 #define CONCENTRATION_THRESHOLD 1     
 #define SPIRAL_R_START 0.0            
 #define SPIRAL_K 10                  
@@ -32,7 +32,7 @@
 #define MAX_Y 495.0                   
 #define SPIRAL_TYPE 0                 
 
-// 算法状态机
+
 typedef enum {
     STATE_SPIRAL_OUT,      
     STATE_ZIGZAG,         
@@ -42,11 +42,11 @@ typedef enum {
     STATE_COMPLETED        
 } AlgorithmState;
 
-// 全局状态变量
+
 typedef struct {
     AlgorithmState state;
     
-    // 螺旋状态
+
     double spiral_x0;
     double spiral_y0;
     double spiral_r_start;
